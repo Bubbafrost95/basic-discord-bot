@@ -1,0 +1,8 @@
+{
+  "name": "the-king's-jester",
+  "version": "0.0.1",
+  "description": "Bot used by The King for testing and telling jokes",
+  "main": "bot.js",
+  "author": "Bubbafrost (The King)",
+  "dependencies": {}
+}
