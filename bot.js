@@ -23,11 +23,17 @@ bot.on('message', function(user, userID, channelID, message, evt){
     args = args.splice(1);
     switch(cmd){
       case 'ping':
-      bot.sendMessage({
-        to: channelID,
-        message: 'Pong!'
-      });
-      break;
+        bot.sendMessage({
+          to: channelID,
+          message: 'Pong!'
+        });
+        break;
+      case 'commands':
+        bot.sendMessage({
+          to: channelID,
+          message: '!ping: Returns "Pong!"\n !commands: Returns this list of commands\n'
+        });
+        break;
     }
   }
 });
