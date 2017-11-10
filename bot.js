@@ -31,7 +31,7 @@ bot.on('message', function(user, userID, channelID, message, evt){
       case 'commands':
         bot.sendMessage({
           to: channelID,
-          message: '!ping: Returns "Pong!"\n !commands: Returns this list of commands\n'
+          message: '!ping: Returns "Pong!"\n!commands: Returns this list of commands\n'
         });
         break;
     }
